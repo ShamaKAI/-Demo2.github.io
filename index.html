@@ -237,7 +237,7 @@
                 </button>
                 <p id="timerHint" class="mt-3 text-gray-500 text-sm">
                     <i class="fa fa-info-circle mr-1"></i>
-                    为确保支付成功，请耐心等待倒计时结束
+                    为确保支付成功，请耐心等待倒计时结束后点击查看二维码
                 </p>
             </div>
         </div>
@@ -283,7 +283,7 @@
     <script>
         let currentGroupName = null;
         let paymentTimer = null;
-        let totalSeconds = 30; // 2分钟
+        let totalSeconds = 120; // 2分钟
         
         // 打开支付模态框
         function openPayment(group, amount) {
